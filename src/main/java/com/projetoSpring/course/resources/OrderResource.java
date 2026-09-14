@@ -14,7 +14,7 @@ import com.projetoSpring.course.services.OrderService;
 
 
 @RestController // Anotação que indica que esta classe é um controlador REST
-@RequestMapping(value = "/Orders")  // Define o caminho base para as requisições deste controlador
+@RequestMapping(value = "/orders")  // Define o caminho base para as requisições deste controlador
 public class OrderResource {
 
 	@Autowired
