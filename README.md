@@ -8,15 +8,8 @@ Este projeto é uma **API RESTful** desenvolvida com **Java + Spring Boot**, con
 O projeto aplica os principais conceitos do ecossistema Spring, incluindo criação de uma API REST completa com operações **CRUD**, mapeamento objeto-relacional com **JPA/Hibernate**, banco de dados em memória **H2** para testes, tratamento de **exceções customizadas** com respostas HTTP padronizadas e arquitetura em camadas.
 
 ## Modelo conceitual
-```
-User (1) ──────── (N) Order ──── OrderStatus (enum)
-                        │
-                  (N) OrderItem (N)
-                        │
-                    Product (N) ──── (N) Category
-                        │
-                    Payment (1:1)
-```
+
+![Modelo Conceitual](images/modelo-conceitual.png)
 
 # Tecnologias utilizadas
 ## Back end
@@ -199,7 +192,7 @@ Pré-requisitos: Java 25
 git clone https://github.com/guilhermenoe2020-netizen/workshop-springboot4-jpa
 
 # entrar na pasta do projeto
-cd course
+cd workshop-springboot4-jpa
 
 # executar o projeto (Windows)
 mvnw.cmd spring-boot:run
@@ -235,9 +228,14 @@ Password: (deixar em branco)
 
 **`@ControllerAdvice`** — Centraliza o tratamento de exceções em um único lugar para toda a aplicação.
 
-**`@Transactional`** — Garante que busca e atualização no método `update` ocorram dentro de uma única transação.
+**`@Transactional`** — Garante que a operação de atualização seja executada dentro de uma única transação, permitindo que as alterações na entidade sejam sincronizadas com o banco de dados ao final da operação.
 
 **`CommandLineRunner`** — `TestConfig` popula o banco automaticamente ao iniciar a aplicação no perfil `test`.
+
+# Agradecimentos
+
+Este projeto foi desenvolvido durante meus estudos de Java e Spring Boot,
+com base no curso do [DevSuperior](https://devsuperior.com.br/)
 
 # Autor
 
