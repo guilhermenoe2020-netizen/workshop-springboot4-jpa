@@ -241,4 +241,4 @@ com base no curso do [DevSuperior](https://devsuperior.com.br/)
 
 Guilherme Noé
 
-https://github.com/guilhermenoe2020-netizen
+https://www.linkedin.com/in/guilherme-no%C3%A9-636a73336
