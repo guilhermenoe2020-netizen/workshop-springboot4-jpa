@@ -195,7 +195,8 @@ git clone https://github.com/guilhermenoe2020-netizen/workshop-springboot4-jpa
 cd workshop-springboot4-jpa
 
 # executar o projeto (Windows)
-mvnw.cmd spring-boot:run
+No CMD ou PowerShell: mvnw.cmd spring-boot:run
+No Git Bash: ./mvnw spring-boot:run
 
 # executar o projeto (Linux/Mac)
 ./mvnw spring-boot:run
