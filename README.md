@@ -237,9 +237,3 @@ Password: (deixar em branco)
 
 Este projeto foi desenvolvido durante meus estudos de Java e Spring Boot,
 com base no curso do [DevSuperior](https://devsuperior.com.br/)
-
-# Autor
-
-Guilherme Noé
-
-https://www.linkedin.com/in/guilherme-no%C3%A9-636a73336
